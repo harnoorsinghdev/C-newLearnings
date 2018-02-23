@@ -1,2 +1,10 @@
+& = ADDRESS
+* = DEREFERENCE ADDRESS OR VALUE AT
+
+ also known as dereferenced, using the indirection operator or dereferencing operator
+
+
 1. To declare a pointer use *  ex. int *ptr
 2. To assign addres of variable use &    ex. sampleVariable==> int *ptr=&samVariable
+3. To print address of variable samVariable --> int *ptr=&samVariable; cout<<ptr;
+4. To print memory address of pointer---> cout<<&ptr
