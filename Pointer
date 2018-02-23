@@ -1,0 +1,2 @@
+1. To declare a pointer use *  ex. int *ptr
+2. To assign addres of variable use &    ex. sampleVariable==> int *ptr=&samVariable
