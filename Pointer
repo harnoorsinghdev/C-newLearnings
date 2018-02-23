@@ -1,5 +1,5 @@
-& = ADDRESS
-* = DEREFERENCE ADDRESS OR VALUE AT
+& = ADDRESS, so &a means ADRESS AT a
+* = DEREFERENCE ADDRESS OR VALUE AT, so * a means VALUE AT A
 
  also known as dereferenced, using the indirection operator or dereferencing operator
 
