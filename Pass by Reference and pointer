@@ -1,1 +1,8 @@
 IN PASS BY VALUE,THE FUNCTION MAKES COPY OF THE ORIGINAL VARIABLE AND IS NOT ACESSING THE ORIGINAL VARIABLE
+
+so if code is
+passValue(vari);
+void passValue(int x){
+//
+}
+THen value of vari is not going to change rather the value of x is going to change
