@@ -3,6 +3,15 @@ IN PASS BY VALUE,THE FUNCTION MAKES COPY OF THE ORIGINAL VARIABLE AND IS NOT ACE
 so if code is
 passValue(vari);
 void passValue(int x){
-//
+x=any value; //IT WILL ONLY CHANGE VALUE LOCALLY
 }
 THen value of vari is not going to change rather the value of x is going to change
+
+IN PASS BYREFERNCE- WE PASS MEMORY ADDRESS
+passRefer(&vari); //PASSING ADDRESS OF VARI
+void passRefer(int *x){
+//
+
+*x=new value; //THIS WILL CHANGE VALUE AT MEMIRY ADDRESS of vari
+}
+
